@@ -1,7 +1,7 @@
 [<img src="https://cdn.rawgit.com/lutsen/lagan/master/lagan-logo.svg" width="100" alt="Lagan">](https://github.com/lutsen/lagan)
 
-Lagan Slug Property
-===================
+Lagan Slug Property Controller
+==============================
 
 Controller for the Lagan Position property.  
 Creates a slug from a string, and checks if it's unique.

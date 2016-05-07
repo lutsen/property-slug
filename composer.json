@@ -1,5 +1,5 @@
 {
-	"name": "lagan/slug",
+	"name": "lagan/slug-property-controller",
 	"type": "library",
 	"description": "Controller for the Lagan slug property. Creates a slug from a string, and checks if it's unique.",
 	"keywords": ["lagan","slug","property","controller"],
@@ -11,5 +11,8 @@
 			"homepage": "http://www.hoverkraft.nl",
 			"role": "Developer"
 		}
-	]
+	],
+	"require": {
+		"php": ">=5.5.0"
+	}
 }
