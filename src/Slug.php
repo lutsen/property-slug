@@ -124,7 +124,8 @@ class Slug {
 		if ( $this->uniqueSlug( $bean, $property_name, $slug ) ) {
 			return $slug;
 		} else {
-			return $slug . '-' . $bean->id;
+			// Create slug with uniqid() and check again
+			return $this->makeSlug( $bean, $property_name, $slug . '-' . uniqid() );
 		}
 	}
 
